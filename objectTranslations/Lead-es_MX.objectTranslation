@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><layouts>
+        <layout>Helix B2B Lead Layout</layout>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Helix B2C Lead Layout</layout>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- Helix B2B Lead Layout --></label>
+        <name>Helix_B2B_Lead_Layout</name>
+    </recordTypes><recordTypes>
+        <label><!-- Helix B2C Lead Layout --></label>
+        <name>Helix_B2C_Lead_Layout</name>
+    </recordTypes><validationRules>
+        <errorMessage><!-- Please fill in Details --></errorMessage>
+        <name>Lead_Source_Details</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Please fill in Details --></errorMessage>
+        <name>Market_sub_category_details</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Please fill in reason for the pass on the lead --></errorMessage>
+        <name>Pass_Reason_Details</name>
+    </validationRules><webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks><webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks><webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks></CustomObjectTranslation>

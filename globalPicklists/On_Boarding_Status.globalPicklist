@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalPicklist xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used for on-Boarding Statuses</description>
+    <globalPicklistValues>
+        <fullName>Green (on track to meet target launch)</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Yellow (behind or needs attention)</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Red (strong risk for missing timeline)</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <globalPicklistValues>
+        <fullName>Gray (not started)</fullName>
+        <default>false</default>
+    </globalPicklistValues>
+    <masterLabel>On-Boarding Status</masterLabel>
+    <sorted>false</sorted>
+</GlobalPicklist>

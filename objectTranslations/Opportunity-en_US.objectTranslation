@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Target MOU Close Date</value>
+        </caseValues>
+        <name>close_date_opportunity</name>
+        <startsWith>Consonant</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Product Description</value>
+        </caseValues>
+        <name>description_opportunity</name>
+        <startsWith>Consonant</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Helix Team</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>Helix Team</value>
+        </caseValues>
+        <name>opportunity_team</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Opportunities with Helix Teams and Products Report</value>
+        </caseValues>
+        <name>opportunity_team_product_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Helix Team Report</value>
+        </caseValues>
+        <caseValues>
+            <plural>true</plural>
+            <value>HelixTeam Reports</value>
+        </caseValues>
+        <name>opportunity_team_report</name>
+        <startsWith>Vowel</startsWith>
+    </fields><layouts>
+        <layout>Helix B2B Opportunity Page Layout</layout>
+        <sections>
+            <label><!-- Additional Information --></label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Lead Scoring --></label>
+            <section>Lead Scoring</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Onboarding Checklist --></label>
+            <section>Onboarding Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Sales Checklist --></label>
+            <section>Sales Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Volume Projections --></label>
+            <section>Volume Projections</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- Helix B2B Opportunity --></label>
+        <name>Helix_B2B_Opportunity</name>
+    </recordTypes><validationRules>
+        <errorMessage><!-- Please fill in details --></errorMessage>
+        <name>Lead_Source_Details</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Please fill in reason why the deal was lost --></errorMessage>
+        <name>Lost_Reason_Details</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Please fill in details --></errorMessage>
+        <name>Market_sub_category_details</name>
+    </validationRules><validationRules>
+        <errorMessage><!-- Please fill in reason why the deal was won --></errorMessage>
+        <name>Won_Reason_Details</name>
+    </validationRules></CustomObjectTranslation>

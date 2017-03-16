@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata"><layouts>
+        <layout>Helix B2C Contact Layout</layout>
+        <sections>
+            <label><!-- Sourcing Information --></label>
+            <section>Sourcing Information</section>
+        </sections>
+    </layouts><layouts>
+        <layout>Helix B2C Contact Layout READ ONLY</layout>
+        <sections>
+            <label><!-- Sourcing Information --></label>
+            <section>Sourcing Information</section>
+        </sections>
+    </layouts><recordTypes>
+        <label><!-- Helix B2B Contact --></label>
+        <name>Helix_B2B_Contact</name>
+    </recordTypes><recordTypes>
+        <label><!-- Helix B2C Contact --></label>
+        <name>Helix_B2C_Contact</name>
+    </recordTypes><webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks><webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks></CustomObjectTranslation>
